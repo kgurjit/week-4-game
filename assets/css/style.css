@@ -1,0 +1,39 @@
+.cc-box {
+	display: inline-block;
+    text-align: center;
+    background: #ccc;
+    border-radius: 4px;
+    position: relative;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+div.title {
+    position: absolute;
+    bottom: 0px;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 5px 0px;
+    color: #fff;
+    width: 100%;
+}
+
+.num span {
+	font-size: 6em;
+}
+
+.cc-box img {
+	width: 150px;
+}
+
+.container {
+	text-align: center;
+}
+
+h1 {
+	font-size: 6em;
+	font-weight: lighter;
+	letter-spacing: 4px;
+	margin-bottom: 75px;
+}
