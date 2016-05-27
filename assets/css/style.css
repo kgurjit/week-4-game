@@ -1,7 +1,7 @@
 .cc-box {
 	display: inline-block;
     text-align: center;
-    background: #ccc;
+    background: #eee;
     border-radius: 4px;
     position: relative;
     margin: 5px;
@@ -23,6 +23,12 @@ div.title {
 	font-size: 6em;
 }
 
+.crystal {
+	vertical-align: top;
+	background: #fff;
+	border: 1px solid #eee;
+}
+
 .cc-box img {
 	width: 150px;
 }
@@ -31,9 +37,30 @@ div.title {
 	text-align: center;
 }
 
+.instructions {
+	margin: 20px auto;
+	max-width: 650px;
+	background: #eee;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.instructions p {
+	text-align: left;
+	padding: 5px;
+	font-style: italic;
+}
+
 h1 {
 	font-size: 6em;
 	font-weight: lighter;
 	letter-spacing: 4px;
-	margin-bottom: 75px;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+body {
+	padding: 15px;
+	background: url('../images/bg.png');
+	font-family: Helvetica, Arial, sans-serif;
 }
